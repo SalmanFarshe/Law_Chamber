@@ -1,0 +1,135 @@
+/* --salman farshe-- */
+/*Screen = B/w 1025px to 1280px*/
+@media (min-width: 1281px) {
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+/*Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .the_wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo_img {
+    width: 100%;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: 400px;
+  }
+  #menu li {
+    float: left;
+  }
+  .container_12 {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main_content_grid {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main_content_bottom {
+    height: 300px;
+  }
+  .about_section {
+    display: grid;
+    justify-items: center;
+  }
+  .container {
+    width: 100%;
+    overflow: hidden !important;
+    margin: 0 auto;
+  }
+}
+/*Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .the_wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo_img {
+    width: 100%;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: 400px;
+  }
+  #menu li {
+    float: none;
+  }
+  .container_12 {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main_content_grid {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main_content_bottom {
+    height: 300px;
+  }
+
+  .about_section {
+    display: grid;
+    justify-items: center;
+  }
+  .container {
+    width: 100%;
+    overflow: hidden !important;
+    margin: 0 auto;
+  }
+}
+/*Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+}
+/* small devices */
+@media (max-width: 480px) {
+  .the_wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo_img {
+    width: 100%;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: 400px;
+  }
+  #menu li {
+    float: none;
+  }
+  .container_12 {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main_content_grid {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+  }
+  .about_section {
+    display: grid;
+    justify-items: center;
+  }
+  .container {
+    width: 100%;
+    overflow: hidden !important;
+    margin: 0 auto;
+  }
+}
